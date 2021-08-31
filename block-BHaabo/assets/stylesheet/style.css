@@ -1,0 +1,236 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*------------- custom css ------------*/
+
+
+
+body {
+    line-height: 1.5;
+
+}
+
+
+/* ---------------container----------- */
+
+.container {
+    padding: 1% 10%;
+}
+
+
+
+/* ------------header---------- */
+
+
+header  {
+    background-color: rgb(34,41,70);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+
+.space_notification_icon {
+    margin-right: 20px;
+
+}
+.space_user-name {
+    margin-right: 10px;
+
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.color_green {
+    color: rgb(47, 206, 47);
+}
+
+/* ------------main part----------- */
+
+section {
+    height: 100vh;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(34,41,70);
+    font-weight: bold;
+    margin: 2% 0;
+}
+
+p {
+    font-size: 18px;
+    margin: 1% 0;
+    color: rgb(34,41,70);
+
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+/* -------------aside ---------*/
+
+aside {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(163,202,234);
+    border-radius: 15px;
+    height: 90%;
+    justify-content: space-between;
+
+}
+
+
+aside a{
+    font-size: 25px;
+    text-decoration: none;
+    word-spacing: 10px;
+    color: rgb(34,41,70);
+    font-weight: bold;
+    padding: 3%;
+
+
+}
+aside img {
+
+margin-left: 4%;}
+
+.vertical_flex {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-around;
+    margin: 0 8%;
+    align-content: stretch;
+
+}
+
+
+/*------------ Log-out Button -----*/
+
+
+
+.Log_out_button{
+    background-color: white;
+    margin: 0 8%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+
+}
+
+
+/*------------ Log-out Button -----*/
+
+
+
+
+article {
+    width: 62%;
+    height: 85%;
+    padding: 2%;
+    background-color: rgb(242,248,253);
+    border-radius: 25px;
+}
+article img {
+    width: 100%;
+}
+.border_a {
+    border: 2px solid rgb(249,122,40);
+    border-radius: 5px;
+    color: rgb(249,122,40);
+}
+
+ /*------ REad-MOre  button green------- */
+
+ article button {
+    background-color: rgb(75,182,104);
+    padding: 2vh 5vh;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3%;
+
+}
+
+article button a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: bold;
+
+    
+    
+}
+
+
+
+
+ /*----------- footer -----------*/
+
+footer {
+    background-color: rgb(34,41,70);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 20px;
+    padding: 1.75% 10%;
+    margin-top: 2%;
+}
+
+
+footer h3,footer a {
+    font-size: 35px;
+    color: rgb(139, 148, 184);
+
+}

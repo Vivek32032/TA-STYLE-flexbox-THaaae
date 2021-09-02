@@ -1,0 +1,77 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/44352a1ded.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <title>Article Dashboard</title>
+</head>
+
+<body>
+    <header class="container">
+        <a href="https://launchpad.altcampus.school/"><i><img src="assets/media/icons/altcampus-logo.svg"
+                    alt="altcampus link"></i></a>
+        <nav class="flex">
+            <a class="space_notification_icon" href="#"><i><img src="assets/media/icons/bell.svg"
+                        alt="Notification Icon"></i></a>
+            <a class="space_user-name" href="#">Sarah Jone </a>
+            <a href="#"><i><img src="assets/media/icons/user.svg" alt=""></i></a>
+        </nav>
+    </header>
+    <main>
+        <section class="flex container">
+            <aside>
+                <div class="vertical_flex">
+                    <a href="#"><img src="assets/media/icons/dashboard.svg" alt="dashboard icon"> Dashboard</a>
+                    <a class="border_a" href="#"><img src="assets/media/icons/article.svg" alt="Article Icon"> Article</a>
+                    <a href="#"> <img src="assets/media/icons/analytics.svg" alt="Analytics icon"> Analytics </a>
+                    <a href="#"><img src="assets/media/icons/inbox.svg" alt=""> Inbox</a>
+                    <a href="#"><img src="assets/media/icons/setting.svg" alt=""> Settings</a>
+                </div>
+
+                <a class="Log_out_button"><img src="assets/media/icons/log-out.svg" alt="Log-out icon"> Log Out</a>
+
+            </aside>
+            <article>
+                <div>
+                    <img src="assets/media/img/01.png" alt="Article Image">
+                </div>
+                <div>
+                    <h1>Why we are doing AltCampus?</h1>
+                    <p>AltCampus is an alternative to collage that you wish existed. Currently, we are offering an
+                        in-house, 6-month long program to train people in quantity software development, where they
+                        don't have to pay anything until they are hired.</p>
+                    <p>We live in the world of digital skills. These skills are always evolving and so is their demand.
+                        Students/Professionals who are not responsive to the changes in industry demands, in terms of
+                        skills, will have a hard time surviving, well at least flourishing.</p>
+                    <button><a href="#">Read More</a></button>
+                </div>
+
+
+            </article>
+
+    </main>
+    <footer>
+        <h3>&copy Altcampus</h3>
+        <div>
+            <a href=""><i class="fa fa-facebook-square"></i></a>
+            <a href=""><i class="fa fa-twitter-square"></i></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
